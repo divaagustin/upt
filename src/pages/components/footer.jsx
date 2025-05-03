@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Logo */}
         <div className="flex justify-center sm:justify-start">
           <Link href="/">
-            <img src="/Logo.png" alt="Logo" className="w-24 h-24 sm:w-32 sm:h-32" />
+            <img src="/logo.png" alt="Logo" className="w-24 h-24 sm:w-32 sm:h-32" />
           </Link>
         </div>
 

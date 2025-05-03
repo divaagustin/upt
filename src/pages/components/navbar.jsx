@@ -26,12 +26,12 @@ export default function Navbar() {
       <div className="navbar-start flex items-center">
         {/* Logo (acts as menu toggle on mobile) */}
         <button onClick={toggleMobileMenu} className="lg:hidden p-2">
-          <img src="/Logo.png" alt="logo" className="w-12 h-12" />
+          <img src="/logo.png" alt="logo" className="w-12 h-12" />
         </button>
 
         {/* Desktop logo + text */}
         <Link href="/" className="hidden lg:flex items-center space-x-2">
-          <img src="/Logo.png" alt="logo" className="w-16 h-16 p-2" />
+          <img src="/logo.png" alt="logo" className="w-16 h-16 p-2" />
           <span className="text-2xl font-bold">UPT IPKM</span>
         </Link>
       </div>
