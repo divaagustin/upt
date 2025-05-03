@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css atau di dalam tag <style> di komponen Navbar */
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+.hover-trigger:hover > ul {
+    display: block;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .hover-trigger > ul {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .hover-trigger summary {
+    cursor: pointer;
+  }
+
+th{
+    background-color: #f8f8f8;
+    border: 2px;
+    padding: 8px;
+    text-align: left;
+  }
